@@ -1,13 +1,53 @@
 /* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro&family=Ubuntu&display=swap');
 
-/* common styles or utilities*/
+/*-------------------------------
+    common styles or utilities
+--------------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
+/* nevigation */
+.navigation-bar{
+    background-color: #562EFF;
+    height: 94px;
+    padding-left: 20%; 
+    padding-right: 25%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-bar a{
+    text-decoration: none;
+    color: White;
+    font-size: 16px;
+    font-weight: 400;
+}
+#nav-title a{
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+#nav-title{
+    display: flex;
+    align-items: center;
+}
+.fa-lightbulb{
+    color: white;
+    font-size: 50px;
+}
+#nav-links{
+    display: flex;
+    align-items: center;
+}
+#nav-links a{
+    padding-right: 36px;
+}
+/* main sections */
 main{
     display: flex;
     /* justify-content: center; */
@@ -105,7 +145,6 @@ hr{
      font-size: 15px;
      font-weight: 500;
      color: #ED6B4F;
-
  }
  .course-info{
      display: flex;
@@ -135,6 +174,14 @@ hr{
      width: 95px; */
      padding: 5px 6px;
      border-radius: 15px;
+ }
+ /* footer styles */
+ .footer-details{
+     text-align: center;
+     padding: 10px;
+ }
+ .footer-details a{
+    text-decoration: none;
  }
 
  /*-------------------
